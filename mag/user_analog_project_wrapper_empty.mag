@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1727649251
+use toplevel  toplevel_0
+timestamp 1727647182
+transform 1 0 42077 0 1 116317
+box -42087 -116321 166580 108254
+<< end >>

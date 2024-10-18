@@ -1,0 +1,20 @@
+* SPICE3 file created from reference.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_T5G9WD a_n108_n64# w_n144_n164# a_50_n64# a_n50_n161#
++ VSUBS
+X0 a_50_n64# a_n50_n161# a_n108_n64# w_n144_n164# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_46RJ2R w_n494_n164# a_400_n64# a_n400_n161# a_n458_n64#
++ VSUBS
+X0 a_400_n64# a_n400_n161# a_n458_n64# w_n494_n164# sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=4
+.ends
+
+.subckt reference vo1 vo2
+Xsky130_fd_pr__pfet_01v8_lvt_T5G9WD_0 vo1 vo2 vo2 vo1 VSUBS sky130_fd_pr__pfet_01v8_lvt_T5G9WD
+Xsky130_fd_pr__pfet_01v8_lvt_46RJ2R_0 w_0_0# vo2 vo2 w_0_0# VSUBS sky130_fd_pr__pfet_01v8_lvt_46RJ2R
+Xsky130_fd_pr__pfet_01v8_lvt_46RJ2R_1 vo1 vo1 m1_20_n778# m1_20_n778# VSUBS sky130_fd_pr__pfet_01v8_lvt_46RJ2R
+C0 vo1 VSUBS 2.387336f
+C1 vo2 VSUBS 2.190784f
+.ends
+

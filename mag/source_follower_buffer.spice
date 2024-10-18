@@ -1,0 +1,6 @@
+* SPICE3 file created from source_follower_buffer.ext - technology: sky130A
+
+X0 out in1 vdd gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X1 vdd in2 out gnd sky130_fd_pr__nfet_01v8 ad=0.658625 pd=5.655 as=0.29 ps=3.16 w=0.5 l=0.5
+X2 gnd in2 out vdd sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X3 out in1 gnd vdd sky130_fd_pr__pfet_01v8_lvt ad=0.29 pd=3.16 as=0.670725 ps=5.655 w=0.5 l=0.5

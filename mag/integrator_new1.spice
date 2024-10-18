@@ -1,0 +1,21 @@
+* SPICE3 file created from integrator_new1.ext - technology: sky130A
+
+X0 m1_1624_2482# m1_2976_3044# Vdd Vdd sky130_fd_pr__pfet_01v8_lvt ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X1 m1_1624_2482# XM1/a_n50_n138# m1_2972_2616# gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X2 Vdd Vdd Vdd Vdd sky130_fd_pr__pfet_01v8_lvt ad=0.87 pd=9.48 as=0 ps=0 w=0.5 l=0.5
+X3 m1_2972_2616# XM2/a_n50_n138# vo1 gnd sky130_fd_pr__nfet_01v8 ad=1.45 pd=13.48 as=0.145 ps=1.58 w=0.5 l=0.5
+X4 Vdd m1_2976_3044# vo1 Vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0.145 ps=1.58 w=0.5 l=0.5
+X5 m1_2972_2616# m1_5204_2614# gnd gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=0.5
+X6 m1_2972_2616# m1_5204_2614# gnd gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=0.5
+X7 gnd m1_5204_2614# m1_2972_2616# gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=0.5
+X8 gnd m1_5204_2614# m1_2972_2616# gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=0.5
+X9 gnd m1_5204_2614# m1_2972_2616# gnd sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=0.5
+X10 m1_2972_2616# m1_5204_2614# gnd gnd sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=0.5
+X11 Vdd Vdd Vdd Vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=0.5 l=0.5
+X12 m1_1624_2482# vo1 sky130_fd_pr__cap_mim_m3_1 l=10 w=20
+X13 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=1.45 pd=14.06 as=0 ps=0 w=0.5 l=0.5
+X14 gnd gnd gnd gnd sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=0.5 l=0.5
+C0 m1_1624_2482# vo1 18.91389f
+C1 vo1 0 6.427438f **FLOATING
+C2 Vdd 0 3.965386f **FLOATING
+C3 m1_1624_2482# 0 3.015339f **FLOATING

@@ -1,0 +1,414 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FXZ64Q in circuit buffer_digital (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_DQBD8A in circuit buffer_digital (0)(2 instances)
+
+Subcircuit summary:
+Circuit 1: buffer_digital                  |Circuit 2: buffer_digital                  
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: buffer_digital                  |Circuit 2: buffer_digital                  
+-------------------------------------------|-------------------------------------------
+i                                          |i                                          
+in                                         |in                                         
+GND                                        |GND                                        
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes buffer_digital and buffer_digital are equivalent.
+
+Circuit 1 cell sky130_fd_pr__cap_mim_m3_1 and Circuit 2 cell sky130_fd_pr__cap_mim_m3_1 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Flattening unmatched subcell capacito7 in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4ZKXAA in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_9LGCGE in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_49FP49 in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC45 in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell buffer_and_gate in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell buffer in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGLN5 in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_VR4B8J in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell and_gate in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_X4L24Q in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_XJUN3E in circuit capacitor_8 (0)(1 instance)
+Flattening unmatched subcell and_capacitor_8 in circuit capacitor_8 (1)(1 instance)
+
+Class capacitor_8 (0):  Merged 180 parallel devices.
+Subcircuit summary:
+Circuit 1: capacitor_8                     |Circuit 2: capacitor_8                     
+-------------------------------------------|-------------------------------------------
+buffer_digital (1)                         |buffer_digital (1)                         
+sky130_fd_pr__pfet_01v8 (97->7)            |sky130_fd_pr__pfet_01v8 (7)                
+sky130_fd_pr__nfet_01v8 (97->7)            |sky130_fd_pr__nfet_01v8 (7)                
+sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
+Number of devices: 16                      |Number of devices: 16                      
+Number of nets: 15                         |Number of nets: 15                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: capacitor_8                     |Circuit 2: capacitor_8                     
+-------------------------------------------|-------------------------------------------
+VSUBS                                      |gnd **Mismatch**                           
+capacitor_7_0/buffer_digital_0/VDD         |VDD **Mismatch**                           
+capacitor_7_0/buffer_and_gate_0/clk        |clk **Mismatch**                           
+w_1380_n364#                               |vd3 **Mismatch**                           
+w_7118_n356#                               |vd4 **Mismatch**                           
+capacitor_7_0/buffer_digital_0/i           |i1 **Mismatch**                            
+capacitor_7_0/a_5270_n124#                 |vd2 **Mismatch**                           
+capacitor_7_0/a_2858_n174#                 |vd1 **Mismatch**                           
+capacitor_7_0/m3_7758_166#                 |cp_clk **Mismatch**                        
+---------------------------------------------------------------------------------------
+Cell pin lists for capacitor_8 and capacitor_8 altered to match.
+Device classes capacitor_8 and capacitor_8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_D4CMYK in circuit capacitor_5 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4ZKXAA in circuit capacitor_5 (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC45 in circuit capacitor_5 (0)(1 instance)
+Flattening unmatched subcell buffer_and_gate in circuit capacitor_5 (0)(1 instance)
+Flattening unmatched subcell buffer in circuit capacitor_5 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGLN5 in circuit capacitor_5 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_VR4B8J in circuit capacitor_5 (0)(1 instance)
+Flattening unmatched subcell and_gate in circuit capacitor_5 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_X4L24Q in circuit capacitor_5 (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_XJUN3E in circuit capacitor_5 (0)(1 instance)
+Flattening unmatched subcell and_capacitor_5 in circuit capacitor_5 (1)(1 instance)
+Flattening unmatched subcell and_20x_wide in circuit capacitor_5 (1)(1 instance)
+
+Class capacitor_5 (0):  Merged 168 parallel devices.
+Subcircuit summary:
+Circuit 1: capacitor_5                     |Circuit 2: capacitor_5                     
+-------------------------------------------|-------------------------------------------
+buffer_digital (1)                         |buffer_digital (1)                         
+sky130_fd_pr__nfet_01v8 (85->7)            |sky130_fd_pr__nfet_01v8 (7)                
+sky130_fd_pr__pfet_01v8 (97->7)            |sky130_fd_pr__pfet_01v8 (7)                
+sky130_fd_pr__cap_mim_m3_1 (1)             |sky130_fd_pr__cap_mim_m3_1 (1)             
+Number of devices: 16                      |Number of devices: 16                      
+Number of nets: 15                         |Number of nets: 15                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: capacitor_5                     |Circuit 2: capacitor_5                     
+-------------------------------------------|-------------------------------------------
+clk                                        |clk                                        
+GND                                        |gnd                                        
+VDD                                        |VDD                                        
+vd3                                        |vd3                                        
+vd4                                        |vd4                                        
+i1                                         |i1                                         
+cp_clk                                     |cp_clk                                     
+vd2                                        |vd2                                        
+vd1                                        |vd1                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes capacitor_5 and capacitor_5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_lvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_lvt are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_E9H44Q in circuit pmos_cp1 (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_9AYYDL in circuit pmos_cp1 (0)(2 instances)
+
+Cell pmos_cp1 (0) disconnected node: VSUBS
+Subcircuit summary:
+Circuit 1: pmos_cp1                        |Circuit 2: pmos_cp1                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (4)                |sky130_fd_pr__pfet_01v8 (4)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match with 4 symmetries.
+
+Subcircuit pins:
+Circuit 1: pmos_cp1                        |Circuit 2: pmos_cp1                        
+-------------------------------------------|-------------------------------------------
+m1_14_56#                                  |d2 **Mismatch**                            
+m1_532_58#                                 |d1 **Mismatch**                            
+a_168_22#                                  |clk_cap **Mismatch**                       
+a_424_18#                                  |clkb_cap **Mismatch**                      
+w_n14_n142#                                |out **Mismatch**                           
+VSUBS                                      |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for pmos_cp1 and pmos_cp1 altered to match.
+Device classes pmos_cp1 and pmos_cp1 are equivalent.
+  Flattening non-matched subcircuits pmos_cp1 pmos_cp1
+
+Circuit 2 cell sky130_fd_sc_hd__xnor2_4 is a black box; will not flatten Circuit 1
+Class sky130_fd_sc_hd__xnor2_4 (0):  Merged 30 parallel devices.
+Equate elements:  no current cell.
+Device classes sky130_fd_sc_hd__xnor2_4 and sky130_fd_sc_hd__xnor2_4 are equivalent.
+
+Circuit 2 cell scanchain is a black box; will not flatten Circuit 1
+Class scanchain (0):  Merged 59 parallel devices.
+Equate elements:  no current cell.
+Device classes scanchain and scanchain are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_T5G9WD in circuit reference (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_46RJ2R in circuit reference (0)(2 instances)
+
+Cell reference (0) disconnected node: VSUBS
+Subcircuit summary:
+Circuit 1: reference                       |Circuit 2: reference                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_lvt (3)            |sky130_fd_pr__pfet_01v8_lvt (3)            
+Number of devices: 3                       |Number of devices: 3                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: reference                       |Circuit 2: reference                       
+-------------------------------------------|-------------------------------------------
+w_0_0#                                     |a_vdd **Mismatch**                         
+m1_20_n778#                                |a_gnd **Mismatch**                         
+vo2                                        |vref1 **Mismatch**                         
+vo1                                        |vref2 **Mismatch**                         
+VSUBS                                      |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for reference and reference altered to match.
+Device classes reference and reference are equivalent.
+  Flattening non-matched subcircuits reference reference
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_R9GHMP in circuit source_follower_buffer (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_W2QHLG in circuit source_follower_buffer (0)(2 instances)
+
+Subcircuit summary:
+Circuit 1: source_follower_buffer          |Circuit 2: source_follower_buffer          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8_lvt (2)            |sky130_fd_pr__pfet_01v8_lvt (2)            
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match with 3 symmetries.
+
+Subcircuit pins:
+Circuit 1: source_follower_buffer          |Circuit 2: source_follower_buffer          
+-------------------------------------------|-------------------------------------------
+in2                                        |vin1 **Mismatch**                          
+in1                                        |vin2 **Mismatch**                          
+vdd                                        |a_vdd **Mismatch**                         
+out                                        |vcp_in **Mismatch**                        
+gnd                                        |a_gnd **Mismatch**                         
+---------------------------------------------------------------------------------------
+Cell pin lists for source_follower_buffer and source_follower_buffer altered to match.
+Device classes source_follower_buffer and source_follower_buffer are equivalent.
+
+Circuit 2 cell sky130_fd_sc_hd__inv_1 is a black box; will not flatten Circuit 1
+Equate elements:  no current cell.
+Device classes sky130_fd_sc_hd__inv_1 and sky130_fd_sc_hd__inv_1 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_LJ5JLG in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell cmfb_pmos in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_TM5SY6 in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_SMGLWN in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_PH9SS5 in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_BH9SS5 in circuit ./layout/toplevel.spice (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_J7MSU8 in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_3374R3 in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_GWAZJ9 in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_GWFSUW in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell full_stage_modified in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell integrator_full_new_compact in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell cmfb in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_TM5SY6 in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_SMGLWN in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_PVEW3M in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell integrator_new1 in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_TM5SY6 in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_SMGLWN in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_EJYG4R in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_TNHPNJ in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_LYF9NA in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell reference0_9 in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_lvt_Y7VTPE in circuit ./layout/toplevel.spice (0)(2 instances)
+Flattening unmatched subcell reconfigurable_CP in circuit ./layout/toplevel.spice (0)(2 instances)
+Flattening unmatched subcell cp1_buffer_5stage in circuit ./layout/toplevel.spice (0)(2 instances)
+Flattening unmatched subcell cp1_buffer1 in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_HRDN5X in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell charge_pump1 in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_MH6KF8 in circuit ./layout/toplevel.spice (0)(36 instances)
+Flattening unmatched subcell nmos_dnw3 in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell clock in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FBZ64Q in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_5ACVEW in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell inverter_27x in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGLN5 in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_VR4B8J in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_KMMFCM in circuit ./layout/toplevel.spice (0)(18 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_29EZRJ in circuit ./layout/toplevel.spice (0)(24 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FL984Q in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FXZ64Q in circuit ./layout/toplevel.spice (0)(18 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_D4CDWR in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_DQBD8A in circuit ./layout/toplevel.spice (0)(24 instances)
+Flattening unmatched subcell capacitors_1 in circuit ./layout/toplevel.spice (0)(84 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4RPJ49 in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC8F in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TKGCLY in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell nmos_decap_10 in circuit ./layout/toplevel.spice (0)(42 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC45 in circuit ./layout/toplevel.spice (0)(42 instances)
+Flattening unmatched subcell pmos_decap_10 in circuit ./layout/toplevel.spice (0)(60 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4ZKXAA in circuit ./layout/toplevel.spice (0)(60 instances)
+Flattening unmatched subcell cp1_buffer1_reverse in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell pmos_decap_10 in circuit ./layout/toplevel.spice (0)(60 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4ZKXAA in circuit ./layout/toplevel.spice (0)(60 instances)
+Flattening unmatched subcell charge_pump1_reverse in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_MH6KF8 in circuit ./layout/toplevel.spice (0)(24 instances)
+Flattening unmatched subcell nmos_dnw3 in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell clock in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FBZ64Q in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_5ACVEW in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell inverter_27x in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGLN5 in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_VR4B8J in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_KMMFCM in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_29EZRJ in circuit ./layout/toplevel.spice (0)(16 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FL984Q in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FXZ64Q in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_D4CDWR in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_DQBD8A in circuit ./layout/toplevel.spice (0)(16 instances)
+Flattening unmatched subcell capacitors_1 in circuit ./layout/toplevel.spice (0)(56 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4RPJ49 in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC8F in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell nmos_decap_10 in circuit ./layout/toplevel.spice (0)(52 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC45 in circuit ./layout/toplevel.spice (0)(52 instances)
+Flattening unmatched subcell cp2_buffer_5stage in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell cp2_buffer1 in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell pmos_decap_10 in circuit ./layout/toplevel.spice (0)(168 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4ZKXAA in circuit ./layout/toplevel.spice (0)(168 instances)
+Flattening unmatched subcell charge_pump in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_MH6KF8 in circuit ./layout/toplevel.spice (0)(48 instances)
+Flattening unmatched subcell capacitors_5 in circuit ./layout/toplevel.spice (0)(24 instances)
+Flattening unmatched subcell nmos_dnw3 in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell clock in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FBZ64Q in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_5ACVEW in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell inverter_27x in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGLN5 in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_VR4B8J in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_KMMFCM in circuit ./layout/toplevel.spice (0)(36 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_29EZRJ in circuit ./layout/toplevel.spice (0)(48 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FL984Q in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FXZ64Q in circuit ./layout/toplevel.spice (0)(36 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_D4CDWR in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_DQBD8A in circuit ./layout/toplevel.spice (0)(48 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4RPJ49 in circuit ./layout/toplevel.spice (0)(24 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC8F in circuit ./layout/toplevel.spice (0)(24 instances)
+Flattening unmatched subcell nmos_diode2 in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell nmos_decap_10 in circuit ./layout/toplevel.spice (0)(72 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC45 in circuit ./layout/toplevel.spice (0)(72 instances)
+Flattening unmatched subcell cp2_buffer2 in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell pmos_decap_10 in circuit ./layout/toplevel.spice (0)(128 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4ZKXAA in circuit ./layout/toplevel.spice (0)(128 instances)
+Flattening unmatched subcell nmos_decap_10 in circuit ./layout/toplevel.spice (0)(80 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC45 in circuit ./layout/toplevel.spice (0)(80 instances)
+Flattening unmatched subcell charge_pump_reverse in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_MH6KF8 in circuit ./layout/toplevel.spice (0)(32 instances)
+Flattening unmatched subcell capacitors_5 in circuit ./layout/toplevel.spice (0)(16 instances)
+Flattening unmatched subcell nmos_dnw3 in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell clock in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FBZ64Q in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_5ACVEW in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell inverter_27x in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGLN5 in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_VR4B8J in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_KMMFCM in circuit ./layout/toplevel.spice (0)(24 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_29EZRJ in circuit ./layout/toplevel.spice (0)(32 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FL984Q in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_FXZ64Q in circuit ./layout/toplevel.spice (0)(24 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_D4CDWR in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_DQBD8A in circuit ./layout/toplevel.spice (0)(32 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_4RPJ49 in circuit ./layout/toplevel.spice (0)(16 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NJGC8F in circuit ./layout/toplevel.spice (0)(16 instances)
+Flattening unmatched subcell nmos_diode2 in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_PXJ6TW in circuit ./layout/toplevel.spice (0)(2 instances)
+Flattening unmatched subcell comparator_final_compact in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_GWFSUW in circuit ./layout/toplevel.spice (0)(6 instances)
+Flattening unmatched subcell comparator_full_compact in circuit ./layout/toplevel.spice (0)(2 instances)
+Flattening unmatched subcell inverter in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_BH9SS5 in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_53744R in circuit ./layout/toplevel.spice (0)(4 instances)
+Flattening unmatched subcell comparator_layout in circuit ./layout/toplevel.spice (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_PVEW3M in circuit ./layout/toplevel.spice (0)(14 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_X3YSY6 in circuit ./layout/toplevel.spice (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_B5E2Q5 in circuit ./layout/toplevel.spice (0)(2 instances)
+Flattening unmatched subcell latch_layout in circuit ./layout/toplevel.spice (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_PVEW3M in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_X3YSY6 in circuit ./layout/toplevel.spice (0)(12 instances)
+Flattening unmatched subcell xnor in circuit ./layout/toplevel.spice (0)(1 instance)
+Flattening unmatched subcell reconfigurable_CP_withScanchain2 in circuit ./schematic/toplevel_schematic.spice (1)(2 instances)
+Flattening unmatched subcell reconfigurable_charge_pump in circuit ./schematic/toplevel_schematic.spice (1)(2 instances)
+Flattening unmatched subcell cp1_buffer in circuit ./schematic/toplevel_schematic.spice (1)(6 instances)
+Flattening unmatched subcell cp1 in circuit ./schematic/toplevel_schematic.spice (1)(6 instances)
+Flattening unmatched subcell nmos_dnw in circuit ./schematic/toplevel_schematic.spice (1)(6 instances)
+Flattening unmatched subcell clock_1 in circuit ./schematic/toplevel_schematic.spice (1)(6 instances)
+Flattening unmatched subcell cp2_buffer in circuit ./schematic/toplevel_schematic.spice (1)(12 instances)
+Flattening unmatched subcell cp2 in circuit ./schematic/toplevel_schematic.spice (1)(12 instances)
+Flattening unmatched subcell clock_1 in circuit ./schematic/toplevel_schematic.spice (1)(12 instances)
+Flattening unmatched subcell nmos_diode_connected in circuit ./schematic/toplevel_schematic.spice (1)(12 instances)
+Flattening unmatched subcell nmos_dnw_cp2 in circuit ./schematic/toplevel_schematic.spice (1)(12 instances)
+Flattening unmatched subcell cp2_buffer_reverse in circuit ./schematic/toplevel_schematic.spice (1)(8 instances)
+Flattening unmatched subcell cp2_reverse in circuit ./schematic/toplevel_schematic.spice (1)(8 instances)
+Flattening unmatched subcell clock_1 in circuit ./schematic/toplevel_schematic.spice (1)(8 instances)
+Flattening unmatched subcell nmos_diode_connected in circuit ./schematic/toplevel_schematic.spice (1)(8 instances)
+Flattening unmatched subcell nmos_dnw_cp2 in circuit ./schematic/toplevel_schematic.spice (1)(8 instances)
+Flattening unmatched subcell cp1_buffer_reverse in circuit ./schematic/toplevel_schematic.spice (1)(4 instances)
+Flattening unmatched subcell cp1_reverse in circuit ./schematic/toplevel_schematic.spice (1)(4 instances)
+Flattening unmatched subcell nmos_dnw in circuit ./schematic/toplevel_schematic.spice (1)(4 instances)
+Flattening unmatched subcell clock_1 in circuit ./schematic/toplevel_schematic.spice (1)(4 instances)
+Flattening unmatched subcell charge_pump_cmfb in circuit ./schematic/toplevel_schematic.spice (1)(1 instance)
+Flattening unmatched subcell reference_0_9 in circuit ./schematic/toplevel_schematic.spice (1)(1 instance)
+Flattening unmatched subcell open_loop in circuit ./schematic/toplevel_schematic.spice (1)(1 instance)
+Flattening unmatched subcell integrator_full in circuit ./schematic/toplevel_schematic.spice (1)(1 instance)
+Flattening unmatched subcell integrator_lvs in circuit ./schematic/toplevel_schematic.spice (1)(1 instance)
+Flattening unmatched subcell cmfb_lvs in circuit ./schematic/toplevel_schematic.spice (1)(1 instance)
+Flattening unmatched subcell window_comparator in circuit ./schematic/toplevel_schematic.spice (1)(1 instance)
+Flattening unmatched subcell sense_amp_comparator in circuit ./schematic/toplevel_schematic.spice (1)(2 instances)
+Flattening unmatched subcell comparator_lvs in circuit ./schematic/toplevel_schematic.spice (1)(2 instances)
+Flattening unmatched subcell latch_lvs in circuit ./schematic/toplevel_schematic.spice (1)(2 instances)
+Flattening unmatched subcell comparator_inv in circuit ./schematic/toplevel_schematic.spice (1)(4 instances)
+
+Class ./layout/toplevel.spice (0):  Merged 21012 parallel devices.
+Class ./schematic/toplevel_schematic.spice (1):  Merged 224 parallel devices.
+Subcircuit summary:
+Circuit 1: ./layout/toplevel.spice         |Circuit 2: ./schematic/toplevel_schematic. 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (142)           |sky130_fd_pr__cap_mim_m3_1 (142)           
+sky130_fd_pr__pfet_01v8 (11890->768)       |sky130_fd_pr__pfet_01v8 (882->768)         
+sky130_fd_pr__nfet_01v8 (10788->901)       |sky130_fd_pr__nfet_01v8 (1008->901)        
+sky130_fd_pr__pfet_01v8_lvt (16->13)       |sky130_fd_pr__pfet_01v8_lvt (16->13)       
+source_follower_buffer (2)                 |source_follower_buffer (2)                 
+scanchain (2)                              |scanchain (2)                              
+capacitor_8 (160)                          |capacitor_8 (160)                          
+buffer_digital (60)                        |buffer_digital (60)                        
+capacitor_5 (320)                          |capacitor_5 (320)                          
+sky130_fd_sc_hd__xnor2_4 (1)               |sky130_fd_sc_hd__xnor2_4 (1)               
+sky130_fd_sc_hd__inv_1 (1)                 |sky130_fd_sc_hd__inv_1 (1)                 
+Number of devices: 2370                    |Number of devices: 2370                    
+Number of nets: 1000                       |Number of nets: 1000                       
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes ./layout/toplevel.spice and ./schematic/toplevel_schematic.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

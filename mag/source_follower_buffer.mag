@@ -1,0 +1,99 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1726987743
+<< nwell >>
+rect -657 523 -366 750
+rect -334 524 172 748
+rect 384 584 396 692
+<< ndiff >>
+rect -352 257 -309 357
+<< pdiff >>
+rect -361 586 -304 686
+rect 390 588 396 688
+<< psubdiff >>
+rect 467 348 575 380
+rect 467 268 496 348
+rect 550 268 575 348
+rect 467 239 575 268
+<< nsubdiff >>
+rect -600 680 -503 711
+rect -600 600 -572 680
+rect -538 600 -503 680
+rect -600 559 -503 600
+<< psubdiffcont >>
+rect 496 268 550 348
+<< nsubdiffcont >>
+rect -572 600 -538 680
+<< poly >>
+rect -302 505 -206 612
+rect -304 409 -206 505
+rect -303 366 -206 409
+rect 238 500 334 616
+rect 238 370 336 500
+rect -303 357 -277 366
+rect 310 356 336 370
+<< locali >>
+rect -600 680 -503 711
+rect -600 600 -572 680
+rect -538 600 -503 680
+rect -600 559 -503 600
+rect -361 582 -316 690
+rect 384 584 396 692
+rect -352 253 -315 361
+rect 467 348 575 380
+rect 467 268 496 348
+rect 550 268 575 348
+rect 467 239 575 268
+<< viali >>
+rect -572 600 -538 680
+rect 496 268 550 348
+<< metal1 >>
+rect -350 766 575 768
+rect -350 734 576 766
+rect -600 680 -503 711
+rect -600 600 -572 680
+rect -538 600 -503 680
+rect -350 600 -316 734
+rect -600 578 -503 600
+rect -600 559 -501 578
+rect -535 222 -501 559
+rect -190 508 -160 636
+rect 194 508 224 654
+rect 359 611 393 734
+rect -190 474 224 508
+rect -190 320 -160 474
+rect 194 338 224 474
+rect 543 410 576 734
+rect 467 348 577 410
+rect -350 222 -314 284
+rect 346 222 382 304
+rect 467 268 496 348
+rect 550 268 577 348
+rect 467 239 577 268
+rect -537 186 382 222
+rect -535 184 -501 186
+rect -350 184 -314 186
+use sky130_fd_pr__nfet_01v8_R9GHMP  sky130_fd_pr__nfet_01v8_R9GHMP_0
+timestamp 1726939357
+transform 1 0 -253 0 1 307
+box -108 -76 108 76
+use sky130_fd_pr__nfet_01v8_R9GHMP  sky130_fd_pr__nfet_01v8_R9GHMP_1
+timestamp 1726939357
+transform 1 0 286 0 1 306
+box -108 -76 108 76
+use sky130_fd_pr__pfet_01v8_lvt_W2QHLG  sky130_fd_pr__pfet_01v8_lvt_W2QHLG_0
+timestamp 1726985647
+transform 1 0 288 0 1 638
+box -144 -112 144 112
+use sky130_fd_pr__pfet_01v8_lvt_W2QHLG  sky130_fd_pr__pfet_01v8_lvt_W2QHLG_1
+timestamp 1726985647
+transform 1 0 -254 0 1 636
+box -144 -112 144 112
+<< labels >>
+rlabel metal1 54 495 54 495 1 out
+rlabel poly -276 447 -276 447 1 in1
+rlabel poly 276 424 276 424 1 in2
+rlabel metal1 -44 741 -44 741 1 gnd
+rlabel metal1 89 197 89 197 1 vdd
+<< end >>

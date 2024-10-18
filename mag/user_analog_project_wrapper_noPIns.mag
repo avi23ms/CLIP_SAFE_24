@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1727675070
+use user_analog_proj_example  user_analog_proj_example_0
+timestamp 1727674834
+transform 1 0 0 0 1 0
+box 0 0 208667 224575
+<< end >>
